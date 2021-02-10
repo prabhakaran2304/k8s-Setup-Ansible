@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "width": 211,
+  "height": 50,
+  "duration": 16.680189,
+  "command": "/bin/bash -l",
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.57856,
+      "\u001b]0;root@gcxihelm01:/data\u0007"
+    ],
+    [
+      0.000985,
+      "\u001b[?1034h[root@gcxihelm01 data]# "
+    ],
+    [
+      2.748904,
+      "d"
+    ],
+    [
+      0.069922,
+      "o"
+    ],
+    [
+      0.138984,
+      "c"
+    ],
+    [
+      0.031068,
+      "k"
+    ],
+    [
+      0.119522,
+      "e"
+    ],
+    [
+      0.119563,
+      "r"
+    ],
+    [
+      0.060163,
+      " "
+    ],
+    [
+      0.130412,
+      "i"
+    ],
+    [
+      0.230068,
+      "m"
+    ],
+    [
+      1.370947,
+      "ag"
+    ],
+    [
+      0.063414,
+      "e"
+    ],
+    [
+      0.122236,
+      "s"
+    ],
+    [
+      0.464005,
+      "\r\n"
+    ],
+    [
+      0.141052,
+      "REPOSITORY                           TAG           IMAGE ID       CREATED         SIZE\r\nquay.io/coreos/flannel               v0.13.1-rc2   dee1cac4dd20   5 days ago      64.3MB\r\nk8s.gcr.io/kube-proxy                v1.20.2       43154ddb57a8   3 weeks ago     118MB\r\nk8s.gcr.io/kube-controller-manager   v1.20.2       a27166429d98   3 weeks ago     116MB\r\nk8s.gcr.io/kube-apiserver            v1.20.2       a8c2fdb8bf76   3 weeks ago     122MB\r\nk8s.gcr.io/kube-scheduler            v1.20.2       ed2c44fbdd78   3 weeks ago     46.4MB\r\nk8s.gcr.io/etcd                      3.4.13-0      0369cf4303ff   5 months ago    253MB\r\nk8s.gcr.io/coredns                   1.7.0         bfe3a36ebd25   7 months ago    45.2MB\r\nk8s.gcr.io/pause                     3.2           80d28bedfe5d   11 months ago   683kB\r\nasciinema/asciicast2gif              latest        e7ea78133adb   2 years ago     408MB\r\n"
+    ],
+    [
+      0.018626,
+      "\u001b]0;root@gcxihelm01:/data\u0007[root@gcxihelm01 data]# "
+    ],
+    [
+      1.854513,
+      "d"
+    ],
+    [
+      0.12995,
+      "o"
+    ],
+    [
+      0.090735,
+      "c"
+    ],
+    [
+      0.114152,
+      "k"
+    ],
+    [
+      0.079928,
+      "e"
+    ],
+    [
+      0.094779,
+      "r"
+    ],
+    [
+      0.135565,
+      " "
+    ],
+    [
+      0.215665,
+      "p"
+    ],
+    [
+      0.143885,
+      "s"
+    ],
+    [
+      0.157014,
+      "\r\n"
+    ],
+    [
+      0.130047,
+      "CONTAINER ID   IMAGE                  COMMAND                  CREATED       STATUS       PORTS     NAMES\r\nfaea11bd2b4f   ed2c44fbdd78           \"kube-scheduler --au…\"   7 hours ago   Up 7 hours             k8s_kube-scheduler_kube-scheduler-gcxihelm01.rptgenlab.com_kube-system_69cd289b4ed80ced4f95a59ff60fa102_3\r\n6ca2b66e4d88   a27166429d98           \"kube-controller-man…\"   7 hours ago   Up 7 hours             k8s_kube-controller-manager_kube-controller-manager-gcxihelm01.rptgenlab.com_kube-system_9df73789607ffc47525cb22758f8c9df_2\r\ned8fdd2aba85   bfe3a36ebd25           \"/coredns -conf /etc…\"   8 hours ago   Up 8 hours             k8s_coredns_coredns-74ff55c5b-b8n8r_kube-system_2314b8a7-b83f-4c7b-9321-4407279ebb39_1\r\n48641910e58c   bfe3a36ebd25           \"/coredns -conf /etc…\"   8 hours ago   Up 8 hours             k8s_coredns_coredns-74ff55c5b-v8m97_kube-system_a1880225-82f4-4667-a7e8-b407c750bbdf_1\r\na6e8867dabd0   k8s.gcr.io/pause:3.2   \"/pause\"                 8 hours ago   Up 8 hours             k"
+    ],
+    [
+      5.1e-05,
+      "8s_POD_coredns-74ff55c5b-b8n8r_kube-system_2314b8a7-b83f-4c7b-9321-4407279ebb39_5\r\na8237471f405   k8s.gcr.io/pause:3.2   \"/pause\"                 8 hours ago   Up 8 hours             k8s_POD_coredns-74ff55c5b-v8m97_kube-system_a1880225-82f4-4667-a7e8-b407c750bbdf_4\r\n48df8dfc1488   dee1cac4dd20           \"/opt/bin/flanneld -…\"   8 hours ago   Up 8 hours             k8s_kube-flannel_kube-flannel-ds-vs7jm_kube-system_a0d5ac68-1405-49ba-92d0-ca494a99d0e5_1\r\n89d0662c369e   k8s.gcr.io/pause:3.2   \"/pause\"                 8 hours ago   Up 8 hours             k8s_POD_kube-flannel-ds-vs7jm_kube-system_a0d5ac68-1405-49ba-92d0-ca494a99d0e5_1\r\nb1a3844ff4f6   43154ddb57a8           \"/usr/local/bin/kube…\"   8 hours ago   Up 8 hours             k8s_kube-proxy_kube-proxy-szjgn_kube-system_5c6fabbe-e759-4911-9160-7cd0b99c099a_1\r\nb7f2a613a254   k8s.gcr.io/pause:3.2   \"/pause\"                 8 hours ago   Up 8 hours             k8s_POD_kube-proxy-szjgn_kube-system_5c6fabbe-e759-4911-9160-7cd0b99c099a_1\r\n964297250adb   a8c2"
+    ],
+    [
+      3.2e-05,
+      "fdb8bf76           \"kube-apiserver --ad…\"   8 hours ago   Up 8 hours             k8s_kube-apiserver_kube-apiserver-gcxihelm01.rptgenlab.com_kube-system_3442d9941e9114c6d0bc655479719636_1\r\nbe0925d1a702   0369cf4303ff           \"etcd --advertise-cl…\"   8 hours ago   Up 8 hours             k8s_etcd_etcd-gcxihelm01.rptgenlab.com_kube-system_93dcce28bdee510758f15ddc0e61131d_1\r\n7d9664bed77b   k8s.gcr.io/pause:3.2   \"/pause\"                 8 hours ago   Up 8 hours             k8s_POD_kube-scheduler-gcxihelm01.rptgenlab.com_kube-system_69cd289b4ed80ced4f95a59ff60fa102_1\r\n9894139a9527   k8s.gcr.io/pause:3.2   \"/pause\"                 8 hours ago   Up 8 hours             k8s_POD_kube-controller-manager-gcxihelm01.rptgenlab.com_kube-system_9df73789607ffc47525cb22758f8c9df_1\r\n737cf3acef66   k8s.gcr.io/pause:3.2   \"/pause\"                 8 hours ago   Up 8 hours             k8s_POD_kube-apiserver-gcxihelm01.rptgenlab.com_kube-system_3442d9941e9114c6d0bc655479719636_1\r\n970ebe4db60f   k8s.gcr.io/pause:3.2   \"/pause\"  "
+    ],
+    [
+      4.8e-05,
+      "               8 hours ago   Up 8 hours             k8s_POD_etcd-gcxihelm01.rptgenlab.com_kube-system_93dcce28bdee510758f15ddc0e61131d_1\r\n"
+    ],
+    [
+      0.009933,
+      "\u001b]0;root@gcxihelm01:/data\u0007[root@gcxihelm01 data]# "
+    ],
+    [
+      5.468563,
+      "f"
+    ],
+    [
+      0.28445,
+      "r"
+    ],
+    [
+      0.244949,
+      "e"
+    ],
+    [
+      0.150051,
+      "e"
+    ],
+    [
+      0.335154,
+      " "
+    ],
+    [
+      0.389408,
+      "-m"
+    ],
+    [
+      0.221787,
+      "\r\n"
+    ],
+    [
+      0.018392,
+      "              total        used        free      shared  buff/cache   available\r\nMem:          11853        1286       10073           9         493       10307\r\nSwap:             0           0           0\r\n\u001b]0;root@gcxihelm01:/data\u0007[root@gcxihelm01 data]# "
+    ]
+  ]
+}
